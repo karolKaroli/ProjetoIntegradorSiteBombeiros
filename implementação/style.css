@@ -1,0 +1,118 @@
+body{
+    all:unset;
+
+}
+
+/* Estilo do cabeçario*/ 
+
+header{
+    margin: 0px;
+    width: 100%;
+    height: 10%;
+    flex-shrink: 0;
+    background-color: #B6110F;
+    display: flex;
+    align-items: center;
+    column-gap: 5%;
+
+}
+.logo{
+    width: 67.082px;
+    height: 54px;
+    margin-left: 5%;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    
+}
+.navegarHeader{
+    color: #FF8A00;
+    font-family: Secular One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 25px;
+    
+    /* // On click
+    // Navigate to: "Home";
+    // Animate: Instant;
+    animation-duration: 0ms; */
+
+}
+.nomeHeader{
+    width: 121px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #FF8A00;
+    font-family: Castoro;
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.linksHeader{
+    position: absolute;
+    right: 15px;
+    
+} 
+
+/* Estilo do rodapé*/
+footer{
+    width: 100%;
+    /* height:80px; */
+    flex-shrink: 0;
+    background-color: rgba(0,0,0,0.88);
+    color: #FFF;
+    font-family: Secular One;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    column-gap: 5%;
+    
+}
+.imgredesocial{
+    width: 30.789px;
+    height: 30px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    display: inline;
+    align-items: center;
+    column-gap: 2%;
+    margin: 6%;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.tituloFooter{
+    text-align: center;
+    position:static;
+    
+    
+}
+.txtsobrefooter{
+    text-align: justify;
+    color: #FFF;
+    font-family: Secular One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    
+}
+.sobreFooter{
+
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.linha{
+    background-color: #FFF;
+    height: 1px;
+    margin-bottom: 4px;
+}
+/* Imagem*/
