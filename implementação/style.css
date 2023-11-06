@@ -1,5 +1,6 @@
 body{
     all:unset;
+    background-color: #B6110F;
 }
 
 /* Estilo do cabeçario*/ 
@@ -159,6 +160,7 @@ footer{
     width: 35%;
     height: 50%;
     border-radius: 12%;
+    padding: 2%;
 }
 .pNossaHistoria{
     text-align: center;
