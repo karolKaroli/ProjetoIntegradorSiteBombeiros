@@ -134,3 +134,23 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+
+/*página sobre nos*/
+/*Nossa história e nossa missão*/
+.valor{
+    background-color: #B6110F;
+    display: flex;
+    
+
+}
+.missao{
+    width: 50%;
+    display: inline;
+}
+.valores{
+    width: 50%;
+    display: inline;
+}
+.imgValor{
+    padding: 10%;
+}
