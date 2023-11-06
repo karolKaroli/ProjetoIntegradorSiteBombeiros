@@ -134,7 +134,9 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-
+.imgHistoria{
+    border-radius: 12%;
+}
 /*página sobre nos*/
 /*Nossa história e nossa missão*/
 .valor{
@@ -165,3 +167,15 @@ footer{
     width: 80%;
     margin-left: 15%;
 }
+.imgValor{
+    border-radius: 12%;
+}
+/* .branco{
+    width: 426px; 
+    height: 293px;
+    background-color: #FFF;
+    padding: 0%;
+    margin: 0%;
+     z-index: 1; 
+    border-radius: 12%;
+} */
