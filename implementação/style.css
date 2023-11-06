@@ -130,7 +130,45 @@ footer{
     font-weight: 400;
     line-height: normal;
 }
+
+.container-valores {
+    background-color: #B6110F;
+}
+
+.container-valores p {
+    color: white;
+}
+
 .equipe {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #292B2F;
+}
+
+.equipe h3 {
+    color: white;
+}
+
+.scroll {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width:none;
+    margin: 47px;
     justify-content: space-between;
+    
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.img-fundo{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin: 0 28px 0 0;
+}
+
+.img-fundo img {
+    border-radius: 10px 10px 0 0;
 }
