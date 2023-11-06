@@ -154,3 +154,14 @@ footer{
 .imgValor{
     padding: 10%;
 }
+.pValor{
+    text-align: center;
+    color: #FFF;
+    font-size: 2em;
+}
+.pText{
+    color: #FFF;
+    text-align: justify;
+    width: 80%;
+    margin-left: 15%;
+}
