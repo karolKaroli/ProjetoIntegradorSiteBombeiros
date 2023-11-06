@@ -129,6 +129,8 @@ footer{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    top:40%;
+    text-transform: capitalize;
 }
 .equipe {
     display: flex;
@@ -198,6 +200,8 @@ footer{
 }
 .imgValor{
     border-radius: 12%;
+    width: 60%;
+    
 }
 /* .branco{
     width: 426px; 
