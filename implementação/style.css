@@ -20,7 +20,6 @@ a:hover {
 }
 
 /* Estilo do cabeçario*/ 
-
 #menu {
     display: flex;
     list-style: none;
@@ -35,6 +34,7 @@ a:hover {
 }
 
 @media (max-width: 868px) {
+    /* Header */
     #btn-mobile {
         display: block;
         cursor: pointer;
@@ -77,6 +77,7 @@ header{
     width: 100%;
     height: 65px;
 }
+
 .logo {
     display: flex;
     width: 240px;
@@ -89,6 +90,7 @@ header{
     justify-content: center;
     align-items: center;
 }
+
 .logo img {
     width: 67.082px;
     height: 54px;
@@ -97,6 +99,7 @@ header{
     /* background-repeat: no-repeat; */
     /* background-size: cover;  */
 }
+
 .navegarHeader{
     color: #FF8A00;
     font-family: Secular One;
@@ -111,8 +114,8 @@ header{
     // Navigate to: "Home";
     // Animate: Instant;
     animation-duration: 0ms; */
-
 }
+
 .nomeHeader{
     width: 150px;
     height: 41px;
@@ -143,22 +146,27 @@ footer{
     flex-direction: column;
     height: 326px;
 }
+
 .logofooter {
     margin-top: 21px;
 }
+
 .redesfooter img {
     margin-top: 5px;
 }
+
 .redesfooter {
     display: flex;
     gap: 23px;
 }
+
 .tituloFooter{
     text-align: center;
     position:static;
     font-size: 23px;
     white-space: nowrap;
 }
+
 .txtsobrefooter{
     text-align: justify;
     color: #FFF;
@@ -168,12 +176,14 @@ footer{
     font-weight: 400;
     line-height: normal;  
 }
+
 .sobreFooter{
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
     /* width: 440px; */
 }
+
 .linha{
     background-color: #FFF;
     height: 1px;
@@ -181,28 +191,34 @@ footer{
 }
 
 /* Imagem*/
+.imgTitulo {
+    position: relative;
+}
 
-.imgSobre{
+.imgTitulo img {
     width: 100%;
     height: 611px;
     flex-shrink: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%), url(imagens/bombeiros\ 3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.imgAjude{
-    width: 100%;
-    height: 611px;
-    flex-shrink: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%), url(imagens/maos\ estendidas.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+.imgTitulo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%),
+                linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%);
+    z-index: 0;
 }
+
 .titulo{
     color: white;
-    position: relative;
+    position: absolute;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Sansita One, sans-serif;
@@ -210,25 +226,35 @@ footer{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    top:40%;
+    top:50%;
+    left:50%;
     text-transform: capitalize;
-}
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+} 
+
 .container-valores {
     background-color: #B6110F;
+    padding: 34px;
 }
+
 .container-valores p {
     color: white;
 }
+
 .equipe {
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: #292B2F;
 }
+
 .equipe h3 {
     color: white;
     margin-top: 29px;
 }
+
 .scroll {
     display: flex;
     overflow-x: auto;
@@ -237,9 +263,11 @@ footer{
     justify-content: space-between;
     gap: 28px;   
 }
+
 .scroll::-webkit-scrollbar {
     display: none;
 }
+
 .img-fundo{
     background-color: #D9D9D9;
     border-radius: 10px;
@@ -249,17 +277,18 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+
 .img-fundo p {
     margin-bottom: 22px;
     font-size: 23px;
 }
+
 .img-fundo img {
     border-radius: 10px 10px 0 0;
     margin-bottom: 38px;
 }
 
 /*Nossa história*/
-
 .historia{
     width: 100%;
     flex-shrink: 0;
@@ -273,61 +302,105 @@ footer{
     bottom: 0;
     padding: 5%;
 }
+
 .textosNossaHistoria{
-    width: 40%;   
+    width: 40%; 
 }
-.imgHistoria{
-    width: 35%;
-    height: 50%;
-    border-radius: 12%;
-    padding: 2%;
+
+.fundogeometrico {
+    position: relative;
 }
+
+.fundogeometrico::before {
+    /* content: ""; */
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.fundogeometrico img {
+    border-radius: 15px;
+    width: 627px;
+    height: 449px;
+    flex-shrink: 0;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 1;
+}
+
+.quadradoVermelho {
+    border-radius: 15px;
+    width: 627px;
+    height: 449px; 
+    background-color: #B60011;
+    position: absolute;
+    top: -27px;
+    left: -27px;
+    z-index: 0;
+}
+
 .pNossaHistoria{
     text-align: center;
     font-size: 2em;
     text-decoration: double;
 }
+
 .pTextNossaHistoria{
     text-align:center;
+    font-size: 1.4em;
 }
 
 /*página sobre nos*/
 /*Nossa história e nossa missão*/
-
 .valor{
     background-color: #B6110F;
     display: flex;
     padding-bottom: 10%;
     z-index: -4;
 }
+
 .missao{
+    padding: 35px;
     width: 50%;
     display: inline;
 }
+
 .valores{
     width: 50%;
     display: inline;
 }
+
 .imgValor{
-    padding: 10%;
+    border-radius: 10px;
+    /* padding: 10%; */
+    background-color: aqua;
 }
+
 .pValor{
     text-align: center;
     color: #FFF;
     font-size: 2em;
 }
+
 .pText{
     color: #FFF;
     text-align: justify;
     width: 80%;
     margin-left: 15%;
 }
+
 .imgValor{
     border-radius: 12%;
     width: 60%;
     margin-left: 15%;
     z-index: 2;
 }
+
 .infofooter {
     display: flex;
     flex-direction: row;
@@ -345,11 +418,79 @@ footer{
 } */
 
 /*Página de ajude-nos*/
-
 .doacao{
-    background-color: rgba(242,242,242,1);
+    background-color: #F2F2F2;
+    width: 100%;
+    flex-shrink: 0;
+    /* background-color: #FFF; */
+    color: #111111;
+    font-family: Secular One;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    column-gap: 2%;
+    bottom: 0;
+    padding: 5%;
 }
 
 /* .doacaoTexto{
     
 } */
+
+.voluntario {
+    background-color: #F2F2F2;
+    width: 100%;
+    flex-shrink: 0;
+    /* background-color: #FFF; */
+    color: #111111;
+    font-family: Secular One;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    column-gap: 2%;
+    bottom: 0;
+    padding: 5%;
+}
+
+.patrocinio {
+    width: 100%;
+    flex-shrink: 0;
+    background-color: #FFF;
+    color: #111111;
+    font-family: Secular One;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    column-gap: 2%;
+    bottom: 0;
+    padding: 5%;
+    flex-direction: row-reverse;
+}
+
+.doacao img {
+    border-radius: 10px;
+}
+
+.voluntario img {
+    border-radius: 10px;
+}
+
+.patrocinio img {
+    border-radius: 10px;
+}
+
+.textoContato {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qrcode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
