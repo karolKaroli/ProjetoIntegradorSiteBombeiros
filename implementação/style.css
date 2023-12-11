@@ -561,3 +561,29 @@ flex-shrink: 0;
     text-align: justify;
     
 }
+
+/*Teinamento*/
+#imgTeinamentoServico{
+    width: 40%;
+    height: 50%;
+}
+.tituloTeinamentoServico{
+    text-align: center;
+    color: #000;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5%;
+}
+.txtTeinamentoServicos{
+    color: #000;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 60%;
+    margin: 2.5%;
+    }
