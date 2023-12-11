@@ -284,6 +284,59 @@ footer{
     border-radius: 10px 10px 0 0;
     margin-bottom: 38px;
 }
+.botao{
+    width: 12em;
+    height: 3em;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background-color: #B6110F;
+    margin: 5%;
+    border-color: #B6110F;
+    box-shadow: 5px 10px #888;
+}
+.botaoA{
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*Página de Home*/
+.txtHome{
+    
+    padding: 5%;
+}
+/*Divulgue nossa causa*/
+#imgDivulgue{
+    width: 50%;
+    float:left; 
+    margin: 2.5%;
+    box-shadow:-20px -20px  #B6110F;
+}
+/*Quem somos*/
+
+.quemsomos{
+    background-color: #edecec;
+    padding: 5%;
+}
+#imgQeumSomos{
+   width: 40%;
+   float:right; 
+   margin: 2.5%;
+   box-shadow:-20px -20px  #B6110F;
+
+}
+.tituloHome{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 
 /*Nossa história*/
 .historia{
