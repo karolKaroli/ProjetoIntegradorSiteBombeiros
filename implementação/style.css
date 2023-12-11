@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-body, ul {
-    margin: 0px;
-    padding: 0px;
-}
-
 a {
     color: black;
     text-decoration: none;
@@ -31,10 +26,8 @@ a:hover {
 }
 #btn-mobile {
     display: none;
-}
-#btn-mobile img {
     width: 35px;
-    height: 35px;
+    height: 35px
 }
 
 @media (max-width: 868px) {
@@ -478,6 +471,18 @@ flex-shrink: 0;
     bottom: 0;
     padding: 5%;
 }
+.textoAjudenos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+}
+.contatoqr {
+    background-color: #292B2F;
+    color: white;
+    padding: 30px 160px 92px 160px;
+}
 
 /* .doacaoTexto{
     
@@ -512,17 +517,10 @@ flex-shrink: 0;
     padding: 5%;
     flex-direction: row-reverse;
 }
-
-.doacao img {
+.img-ajudenos {
     border-radius: 10px;
-}
-
-.voluntario img {
-    border-radius: 10px;
-}
-
-.patrocinio img {
-    border-radius: 10px;
+    width: 557px;
+    height: 372px; 
 }
 
 .textoContato {
@@ -531,8 +529,14 @@ flex-shrink: 0;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    font-size: 24px;
+    gap: 42px;
 }
-
+.container-qrcode {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+}
 .qrcode {
     display: flex;
     justify-content: center;
@@ -545,12 +549,33 @@ flex-shrink: 0;
 /*Página de serviço*/
 
 /*Descrição da página serviço*/
+.queimadas {
+    display: flex;
+    margin: 5%;
+    gap: 39px
+}
+.queimadas img {
+    width: 560px;
+    height: 372px;
+    border-radius: 15px;
+}
+
+.textoqueimadas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    font-size: 24px;
+}
+
 .servicoDes{
-    background-color: #c3c3c3;
-    
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
 }
 .servicoDesP{
-    width: 60%;
+    width: 90%;
     flex-shrink: 0;
     color: #000;
     font-family: Raleway;
@@ -558,14 +583,22 @@ flex-shrink: 0;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: justify;
-    
+    margin: 35px;
 }
 
 /*Teinamento*/
+.servicoTreinamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding-top: 45px;
+}
 #imgTeinamentoServico{
     width: 40%;
     height: 50%;
+    border-radius: 15px;
 }
 .tituloTeinamentoServico{
     text-align: center;
@@ -575,7 +608,7 @@ flex-shrink: 0;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 5%;
+    padding: 2.2%;
 }
 .txtTeinamentoServicos{
     color: #000;
@@ -584,6 +617,9 @@ flex-shrink: 0;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 60%;
+    text-align: center;
+    /* width: 80%; */
     margin: 2.5%;
-    }
+}
+
+
