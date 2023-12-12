@@ -91,6 +91,10 @@ header{
 .logo img {
     width: 67.082px;
     height: 54px;
+    /* margin-left: 47px; */
+    /* flex-shrink: 0; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover;  */
 }
 
 .navegarHeader{
@@ -102,6 +106,11 @@ header{
     line-height: normal;
     text-decoration: none;
     margin-right: 25px;
+    
+    /* // On click
+    // Navigate to: "Home";
+    // Animate: Instant;
+    animation-duration: 0ms; */
 }
 
 .nomeHeader{
@@ -167,18 +176,13 @@ footer{
 
 .sobreFooter{
     margin: 5% 5% 0 5%;
+    /* width: 440px; */
 }
 
 .linha{
     background-color: #FFF;
     height: 1px;
     margin-bottom: 4px;
-}
-
-.infofooter {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 /* Imagem*/
@@ -225,152 +229,6 @@ footer{
     text-transform: capitalize;
 } 
 
-.botao{
-    width: 12em;
-    height: 3em;
-    flex-shrink: 0;
-    border-radius: 15px;
-    background-color: #B6110F;
-    margin: 5%;
-    border-color: #B6110F;
-    box-shadow: 5px 10px #888;
-}
-
-.botaoA{
-    color: #FFF;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-/*Página de Home*/
-.inicio{
-    background-color: #B6110F;
-    height: 80vh;
-    padding: 5%;
-}
-.nomeInicio{
-    width: 150px;
-    height: 41px;
-    flex-shrink: 0;
-    color: #FF8A00;
-    font-family: Castoro;
-    font-size: 2em;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 2.5%;
-    margin-left:4%;
-    
-}
-#logoInicio{
-    width: 20%;
-}
-.slogam{
-    color: #FFF;
-    font-family: Raleway;
-    font-size: 23px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 8%;
-}
-.imgPrincipal{
-    float: right;
-    
-}
-.quemsomos{
-    background-color: #edecec;
-    padding: 5%;
-}
-
-.tituloHome{
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: center;
-    margin: 5%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.txtHome{
-    padding: 5%;
-}
-
-/*Nossos serviços*/
-.servicosHome{
-    background-color:#FFF;
-    width: 30%;
-    margin: 2%;
-    padding: 5%;
-}
-
-/*Divulgue nossa causa*/
-.divulgueCausa{
-    padding: 5%;
-}
-
-#imgDivulgue{
-    width: 50%;
-    float:left; 
-    margin: 2.5%;
-    box-shadow:-20px -20px  #B6110F;
-    border-radius: 15px;
-}
-
-/*Quem somos*/
-#imgQeumSomos{
-   width: 40%;
-   float:right; 
-   margin: 2.5%;
-   box-shadow:-20px -20px  #B6110F;
-}
-
-/*página sobre nos*/
-/*Nossa história*/
-.historia{
-    width: 100%;
-    flex-shrink: 0;
-    background-color: #FFF;
-    color: #111111;
-    font-family: Secular One;
-    line-height: normal;
-    display: flex;
-    align-items: center;
-    column-gap: 2%;
-    bottom: 0;
-    padding: 5%;
-}
-
-.historia img {
-    width: 627px;
-    height: 449px;
-    border-radius: 15px;
-    float:left; 
-    margin: 2.5%;
-    box-shadow:-20px -20px  #B6110F;
-    border-radius: 15px;
-}
-
-.textosNossaHistoria{
-    width: 40%; 
-}
-
-.pNossaHistoria{
-    text-align: center;
-    font-size: 2em;
-    text-decoration: double;
-}
-
-.pTextNossaHistoria{
-    text-align:center;
-    font-size: 1.4em;
-}
-
-
-/*Nossa missão e valores*/
 .container-valores {
     position: relative;
     background-color: #B6110F;
@@ -381,48 +239,6 @@ footer{
     color: white;
 }
 
-.valores{
-    background-color: #B6110F;
-    display: flex;
-    margin: 2.5% 6% 4% 6% ;
-}
-
-.missao{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.missao img {
-    width: 426px;
-    height: 293px;
-    border-radius: 15px;
-    margin: 2.5%;
-    box-shadow:-20px -20px  white;
-}
-
-.textoValor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.pValor{
-    text-align: center;
-    color: #FFF;
-    font-size: 2em;
-}
-
-.pText{
-    color: #FFF;
-    text-align: justify;
-    width: 80%;
-}
-
-/* Equipe */
 .equipe {
     display: flex;
     flex-direction: column;
@@ -468,12 +284,78 @@ footer{
     border-radius: 10px 10px 0 0;
     margin-bottom: 38px;
 }
+.botao{
+    width: 12em;
+    height: 3em;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background-color: #B6110F;
+    margin: 5%;
+    border-color: #B6110F;
+    box-shadow: 5px 10px #888;
+}
+.botaoA{
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*Página de Home*/
+.inicio{
+    background-color: #B6110F;
+}
+.txtHome{
+    
+    padding: 5%;
+}
+/*Nossos serviços*/
+.servicosHome{
+    background-color:#FFF;
+    width: 30%;
+    margin: 2%;
+    padding: 5%;
+}
+/*Divulgue nossa causa*/
+.divulgueCausa{
+    padding: 5%;
+}
+#imgDivulgue{
+    width: 50%;
+    float:left; 
+    margin: 2.5%;
+    box-shadow:-20px -20px  #B6110F;
+}
+/*Quem somos*/
 
-/*Página de ajude-nos*/
-.doacao{
-    background-color: #F2F2F2;
+.quemsomos{
+    background-color: #edecec;
+    padding: 5%;
+}
+#imgQeumSomos{
+   width: 40%;
+   float:right; 
+   margin: 2.5%;
+   box-shadow:-20px -20px  #B6110F;
+
+}
+.tituloHome{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/*Nossa história*/
+.historia{
     width: 100%;
     flex-shrink: 0;
+    background-color: #FFF;
     color: #111111;
     font-family: Secular One;
     line-height: normal;
@@ -484,11 +366,207 @@ footer{
     padding: 5%;
 }
 
-.doacao img {
-    float:left; 
-    margin: 2.5%;
-    box-shadow:-27px -27px  #B6110F;
+.textosNossaHistoria{
+    width: 40%; 
+}
+
+.fundoVermelho {
+    position: relative;
+}
+
+.fundoVermelho::before {
+    /* content: ""; */
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.fundoVermelho img {
     border-radius: 15px;
+    width: 627px;
+    height: 449px;
+    flex-shrink: 0;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 1;
+}
+
+.quadradoVermelho {
+    border-radius: 15px;
+    width: 627px;
+    height: 449px; 
+    background-color: #B60011;
+    position: absolute;
+    top: -27px;
+    left: -27px;
+    z-index: 0;
+}
+
+.pNossaHistoria{
+    text-align: center;
+    font-size: 2em;
+    text-decoration: double;
+}
+
+.pTextNossaHistoria{
+    text-align:center;
+    font-size: 1.4em;
+}
+
+/*página sobre nos*/
+/*Nossa história e nossa missão*/
+.valor{
+    background-color: #B6110F;
+    display: flex;
+    /* padding-bottom: 10%; */
+    margin: 2.5% 6% 4% 6% ;
+    z-index: -4;
+}
+
+.missao{
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 35px; */
+    /* display: inline; */
+    /* display: flex; */
+}
+
+.valores{
+    width: 50%;
+    display: inline;
+}
+/* 
+.imgValor{
+    border-radius: 10px;
+    padding: 10%;
+    background-color: aqua;
+    width: 426px;
+height: 293px;
+flex-shrink: 0;
+} */
+
+.pValor{
+    text-align: center;
+    color: #FFF;
+    font-size: 2em;
+}
+
+.pText{
+    color: #FFF;
+    text-align: justify;
+    width: 80%;
+    /* margin-left: 15%; */
+}
+.textovalor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgValor{
+    border-radius: 12%;
+    width: 60%;
+    margin-left: 15%;
+    z-index: 2;
+}
+
+.infofooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fundobranco {
+    position: relative;
+    margin: 0% 0% 0% 15%;
+}
+
+.fundobranco::before {
+    /* content: ""; */
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.fundobranco img {
+    border-radius: 15px;
+    width: 60%;
+    height: 20%;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 1;
+}
+.quadradoBranco{
+    width: 60%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background-color: #FFF;
+    position: absolute;
+    top: -27px;
+    left: -27px;
+    z-index: 0;
+}
+
+/*Página de ajude-nos*/
+.doacao{
+    background-color: #F2F2F2;
+    width: 100%;
+    flex-shrink: 0;
+    /* background-color: #FFF; */
+    color: #111111;
+    font-family: Secular One;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    column-gap: 2%;
+    bottom: 0;
+    padding: 5%;
+}
+.textoAjudenos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+}
+.contatoqr {
+    background-color: #292B2F;
+    color: white;
+    padding: 30px 160px 92px 160px;
+}
+
+/* .doacaoTexto{
+    
+} */
+
+.voluntario {
+    background-color: #F2F2F2;
+    width: 100%;
+    flex-shrink: 0;
+    /* background-color: #FFF; */
+    color: #111111;
+    font-family: Secular One;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    column-gap: 2%;
+    bottom: 0;
+    padding: 5%;
 }
 
 .patrocinio {
@@ -505,42 +583,10 @@ footer{
     padding: 5%;
     flex-direction: row-reverse;
 }
-
-.voluntario {
-    background-color: #F2F2F2;
-    width: 100%;
-    flex-shrink: 0;
-    color: #111111;
-    font-family: Secular One;
-    line-height: normal;
-    display: flex;
-    align-items: center;
-    column-gap: 2%;
-    bottom: 0;
-    padding: 5%;
-}
-
-.textoAjudenos {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-size: 26px;
-}
-
 .img-ajudenos {
+    border-radius: 10px;
     width: 557px;
-    height: 372px;
-    float:left; 
-    margin: 2.5%;
-    box-shadow:-27px -27px  #B6110F;
-    border-radius: 15px;
-}
-
-.contatoqr {
-    background-color: #292B2F;
-    color: white;
-    padding: 30px 160px 92px 160px;
+    height: 372px; 
 }
 
 .textoContato {
@@ -552,29 +598,43 @@ footer{
     font-size: 24px;
     gap: 42px;
 }
-
 .container-qrcode {
     display: flex;
     justify-content: space-between;
     margin: 40px 0 0 0;
 }
-
 .qrcode {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    background: #8F8F8F;
-    width: 240px;
-    height: 416px;
-    border-radius: 15px;
 }
 
 
 /*Página de serviço*/
 
 /*Descrição da página serviço*/
+.queimadas {
+    display: flex;
+    margin: 5%;
+    gap: 39px
+}
+.queimadas img {
+    width: 560px;
+    height: 372px;
+    border-radius: 15px;
+}
+
+.textoqueimadas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    font-size: 24px;
+}
+
 .servicoDes{
     background-color: #f2f2f2;
     display: flex;
@@ -592,31 +652,6 @@ footer{
     margin: 35px;
 }
 
-.queimadas {
-    display: flex;
-    margin: 5%;
-    gap: 39px
-}
-
-.queimadas img {
-    width: 560px;
-    height: 372px;
-    border-radius: 15px;
-    float:left; 
-    margin: 2.5%;
-    box-shadow:-20px -20px  #B6110F;
-    border-radius: 15px;
-}
-
-.textoqueimadas {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 26px;
-    font-size: 24px;
-}
-
 /*Teinamento*/
 .servicoTreinamento {
     display: flex;
@@ -629,10 +664,6 @@ footer{
 #imgTeinamentoServico{
     width: 40%;
     height: 50%;
-    border-radius: 15px;
-    float:left; 
-    margin: 2.5%;
-    box-shadow:-27px -27px  #B6110F;
     border-radius: 15px;
 }
 .tituloTeinamentoServico{
@@ -653,5 +684,8 @@ footer{
     font-weight: 400;
     line-height: normal;
     text-align: center;
+    /* width: 80%; */
     margin: 2.5%;
 }
+
+
