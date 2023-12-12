@@ -245,6 +245,9 @@ footer{
 }
 
 /*Página de Home*/
+#headerInicio{
+    float: right;
+}
 .inicio{
     background-color: #B6110F;
     height: 80vh;
@@ -263,6 +266,7 @@ footer{
     margin-top: 2.5%;
     margin-left:4%;
     
+    
 }
 #logoInicio{
     width: 20%;
@@ -276,10 +280,10 @@ footer{
     line-height: normal;
     margin-top: 8%;
 }
-.imgPrincipal{
+/* .imgPrincipal{
     float: right;
     
-}
+} */
 .quemsomos{
     background-color: #edecec;
     padding: 5%;
