@@ -245,6 +245,7 @@ footer{
 }
 
 /*Página de Home*/
+
 #headerInicio{
     float: right;
 }
@@ -302,7 +303,10 @@ footer{
 .txtHome{
     padding: 5%;
 }
-
+.fundo{
+    display: inline;
+    z-index: 15;
+}
 /*Nossos serviços*/
 .servicosHome{
     background-color:#FFF;
