@@ -331,7 +331,7 @@ footer{
 }
 
 .tituloHome{
-    font-size: 20px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -342,6 +342,10 @@ footer{
 
 .txtHome{
     padding: 5%;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /*Nossos serviços*/
