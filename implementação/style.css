@@ -314,6 +314,9 @@ footer{
     padding: 5%;
 }
 /*Divulgue nossa causa*/
+.divulgueCausa{
+    padding: 5%;
+}
 #imgDivulgue{
     width: 50%;
     float:left; 
