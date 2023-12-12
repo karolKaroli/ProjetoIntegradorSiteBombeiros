@@ -245,6 +245,7 @@ footer{
 }
 
 /*Página de Home*/
+
 #headerInicio{
     float: right;
 }
@@ -347,7 +348,10 @@ footer{
     font-weight: 400;
     line-height: normal;
 }
-
+.fundo{
+    display: inline;
+    z-index: 15;
+}
 /*Nossos serviços*/
 .container-servicos {
     display: flex;
