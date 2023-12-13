@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,16 +14,18 @@ a:hover {
     background: rgba(0, 0, 0, .05);
 }
 
-/* Estilo do cabeçario*/ 
+/* Estilo do cabeçario*/
 #menu {
     display: flex;
     list-style: none;
     gap: .5rem;
 }
+
 #menu a {
     display: block;
     padding: .5rem;
 }
+
 #btn-mobile {
     display: none;
     width: 35px;
@@ -31,11 +33,13 @@ a:hover {
 }
 
 @media (max-width: 868px) {
+
     /* Header */
     #btn-mobile {
         display: block;
         cursor: pointer;
     }
+
     #menu {
         display: block;
         position: absolute;
@@ -49,11 +53,13 @@ a:hover {
         visibility: hidden;
         overflow-y: hidden;
     }
+
     #nav.active #menu {
         height: calc(100vh - 70px);
         visibility: visible;
         overflow-y: auto;
     }
+
     #menu a {
         padding: 1rem 0;
         margin: 0 1rem;
@@ -61,7 +67,7 @@ a:hover {
     }
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -93,7 +99,7 @@ header{
     height: 54px;
 }
 
-.navegarHeader{
+.navegarHeader {
     color: #FF8A00;
     font-family: Secular One;
     font-size: 16px;
@@ -104,7 +110,7 @@ header{
     margin-right: 25px;
 }
 
-.nomeHeader{
+.nomeHeader {
     width: 150px;
     height: 41px;
     flex-shrink: 0;
@@ -117,10 +123,10 @@ header{
 }
 
 /* Estilo do rodapé*/
-footer{
+footer {
     width: 100%;
     flex-shrink: 0;
-    background-color: rgba(0,0,0,0.88);
+    background-color: rgba(0, 0, 0, 0.88);
     color: #FFF;
     font-family: Secular One, sans-serif;
     font-size: 23px;
@@ -148,28 +154,28 @@ footer{
     gap: 23px;
 }
 
-.tituloFooter{
+.tituloFooter {
     text-align: center;
-    position:static;
+    position: static;
     font-size: 23px;
     white-space: nowrap;
 }
 
-.txtsobrefooter{
+.txtsobrefooter {
     text-align: justify;
     color: #FFF;
     font-family: Secular One;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;  
+    line-height: normal;
 }
 
-.sobreFooter{
+.sobreFooter {
     margin: 5% 5% 0 5%;
 }
 
-.linha{
+.linha {
     background-color: #FFF;
     height: 1px;
     margin-bottom: 4px;
@@ -203,11 +209,11 @@ footer{
     bottom: 0;
     left: 0;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%),
-                linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%);
+        linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%);
     z-index: 0;
 }
 
-.titulo{
+.titulo {
     color: white;
     position: absolute;
     text-align: center;
@@ -217,15 +223,15 @@ footer{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     text-transform: capitalize;
     z-index: 1;
     transform: translate(-50%, -50%);
     text-transform: capitalize;
-} 
+}
 
-.botao{
+.botao {
     width: 12em;
     height: 3em;
     flex-shrink: 0;
@@ -236,7 +242,7 @@ footer{
     box-shadow: 5px 10px #888;
 }
 
-.botaoA{
+.botaoA {
     color: #FFF;
     font-size: 24px;
     font-style: normal;
@@ -245,19 +251,22 @@ footer{
 }
 
 /*Página de Home*/
-.imgPrincipal{
-    display: inline;
+#headerInicio {
     float: right;
 }
-#headerInicio{
-    float: right;
-}
-.inicio{
+
+.inicio {
     background-color: #B6110F;
     height: 80vh;
     padding: 5%;
 }
-.nomeInicio{
+
+.imgPrincipal {
+    display: inline;
+    float: right;
+}
+
+.nomeInicio {
     width: 150px;
     height: 41px;
     flex-shrink: 0;
@@ -268,14 +277,14 @@ footer{
     font-weight: 400;
     line-height: normal;
     margin-top: 2.5%;
-    margin-left:4%;
-    
-    
+    margin-left: 4%;
 }
-#logoInicio{
+
+#logoInicio {
     width: 20%;
 }
-.slogam{
+
+.slogam {
     color: #FFF;
     font-family: Raleway;
     font-size: 23px;
@@ -284,17 +293,11 @@ footer{
     line-height: normal;
     margin-top: 8%;
 }
-/* .imgPrincipal{
-    float: right;
-    
-} */
-.teste{
+
+.container- {
     background-color: #edecec;
-    /* display: flex; */
-    /* justify-content: center;
-    flex-direction: column;
-    align-items: center;*/
 }
+
 .container-geral {
     width: 100%;
     background-color: #edecec;
@@ -304,15 +307,26 @@ footer{
     align-items: center;
 }
 
-.botaoright {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
 .titulo-e-texto {
     text-align: center;
     margin: 37px;
     width: 80%;
+}
+
+.tituloInicio {
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.txtInicio {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .container-svg {
@@ -321,7 +335,6 @@ footer{
     align-items: center;
     margin: 37px;
     border: 30px;
-    /* padding: 30px; */
 }
 
 .svg {
@@ -330,27 +343,15 @@ footer{
     position: relative;
     z-index: 0;
     gap: 70px;
+    padding-left: 5%;
 }
 
-.tituloQuemSomos {
-    color: #000;
-    font-family: Raleway;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.botaoright {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-.txtQuemSomos {
-    color: #000;
-    font-family: Raleway;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.tituloHome{
+.tituloHome {
     font-size: 23px;
     font-style: normal;
     font-weight: 700;
@@ -360,17 +361,18 @@ footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.txtHome{
-    /* padding: 5%; */
+.txtHome {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.fundo{
+
+.fundo {
     display: inline;
     z-index: 15;
 }
+
 /*Nossos serviços*/
 .container-servicos {
     display: flex;
@@ -379,39 +381,46 @@ footer{
     z-index: 1;
 }
 
-.servicosHome{
-    background-color:#FFF;
+.servicosHome {
+    background-color: #FFF;
     display: flex;
     flex-direction: column;
     width: 30%;
     height: 295px;
-    /* height: 400px; */
     margin: 2%;
     padding: 2%;
     border-radius: 11px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
 }
+
 .servicosHome img {
     width: 80px;
     height: 80px;
 }
 
 /*Divulgue nossa causa*/
-.divulgueCausa{
+.divulgueCausa {
     padding: 5%;
     display: flex;
     flex-direction: row;
-}
-.divulgueCausa button {
-    float: right;
+
 }
 
-#imgDivulgue{
+.tituloetextoquemsomos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    padding: 25px;
+}
+
+#imgDivulgue {
     width: 50%;
-    /* float:left;  */
     margin: 2.5%;
-    box-shadow:-20px -20px  #B6110F;
+    box-shadow: -20px -20px #B6110F;
     border-radius: 15px;
+    object-fit: cover;
 }
 
 /*Quem somos*/
@@ -421,20 +430,34 @@ footer{
     margin: 20px;
 }
 
-#imgQuemSomos{
+#imgQuemSomos {
     width: 384px;
     height: 518px;
     margin: 2.5%;
-    box-shadow:-27px -27px  #B6110F;
+    box-shadow: -27px -27px #B6110F;
     border-radius: 15px;
     object-fit: cover;
-    /* width: 40%; */
-   /* float:right;  */
+}
+
+.tituloQuemSomos {
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.txtQuemSomos {
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /*página sobre nos*/
 /*Nossa história*/
-.historia{
+.historia {
     width: 100%;
     flex-shrink: 0;
     background-color: #FFF;
@@ -452,27 +475,26 @@ footer{
     width: 627px;
     height: 449px;
     border-radius: 15px;
-    float:left; 
+    float: left;
     margin: 2.5%;
-    box-shadow:-20px -20px  #B6110F;
+    box-shadow: -20px -20px #B6110F;
     border-radius: 15px;
 }
 
-.textosNossaHistoria{
-    width: 40%; 
+.textosNossaHistoria {
+    width: 40%;
 }
 
-.pNossaHistoria{
+.pNossaHistoria {
     text-align: center;
     font-size: 2em;
     text-decoration: double;
 }
 
-.pTextNossaHistoria{
-    text-align:center;
+.pTextNossaHistoria {
+    text-align: center;
     font-size: 1.4em;
 }
-
 
 /*Nossa missão e valores*/
 .container-valores {
@@ -485,13 +507,13 @@ footer{
     color: white;
 }
 
-.valores{
+.valores {
     background-color: #B6110F;
     display: flex;
-    margin: 2.5% 6% 4% 6% ;
+    margin: 2.5% 6% 4% 6%;
 }
 
-.missao{
+.missao {
     width: 50%;
     display: flex;
     align-items: center;
@@ -504,7 +526,7 @@ footer{
     height: 293px;
     border-radius: 15px;
     margin: 2.5%;
-    box-shadow:-20px -20px  white;
+    box-shadow: -20px -20px white;
 }
 
 .textoValor {
@@ -514,13 +536,13 @@ footer{
     flex-direction: column;
 }
 
-.pValor{
+.pValor {
     text-align: center;
     color: #FFF;
     font-size: 2em;
 }
 
-.pText{
+.pText {
     color: #FFF;
     text-align: justify;
     width: 80%;
@@ -543,17 +565,17 @@ footer{
 .scroll {
     display: flex;
     overflow-x: auto;
-    scrollbar-width:none;
+    scrollbar-width: none;
     margin: 47px;
     justify-content: space-between;
-    gap: 28px;   
+    gap: 28px;
 }
 
 .scroll::-webkit-scrollbar {
     display: none;
 }
 
-.img-fundo{
+.img-fundo {
     background-color: #D9D9D9;
     border-radius: 10px;
     height: 395px;
@@ -574,7 +596,7 @@ footer{
 }
 
 /*Página de ajude-nos*/
-.doacao{
+.doacao {
     background-color: #F2F2F2;
     width: 100%;
     flex-shrink: 0;
@@ -589,9 +611,9 @@ footer{
 }
 
 .doacao img {
-    float:left; 
+    float: left;
     margin: 2.5%;
-    box-shadow:-27px -27px  #B6110F;
+    box-shadow: -27px -27px #B6110F;
     border-radius: 15px;
 }
 
@@ -635,9 +657,9 @@ footer{
 .img-ajudenos {
     width: 557px;
     height: 372px;
-    float:left; 
+    float: left;
     margin: 2.5%;
-    box-shadow:-27px -27px  #B6110F;
+    box-shadow: -27px -27px #B6110F;
     border-radius: 15px;
 }
 
@@ -675,16 +697,15 @@ footer{
     border-radius: 15px;
 }
 
-
 /*Página de serviço*/
-
 /*Descrição da página serviço*/
-.servicoDes{
+.servicoDes {
     background-color: #f2f2f2;
     display: flex;
     justify-content: center;
 }
-.servicoDesP{
+
+.servicoDesP {
     width: 90%;
     flex-shrink: 0;
     color: #000;
@@ -706,9 +727,9 @@ footer{
     width: 560px;
     height: 372px;
     border-radius: 15px;
-    float:left; 
+    float: left;
     margin: 2.5%;
-    box-shadow:-20px -20px  #B6110F;
+    box-shadow: -20px -20px #B6110F;
     border-radius: 15px;
 }
 
@@ -730,16 +751,18 @@ footer{
     background-color: #F2F2F2;
     padding-top: 45px;
 }
-#imgTeinamentoServico{
+
+#imgTeinamentoServico {
     width: 40%;
     height: 50%;
     border-radius: 15px;
-    float:left; 
+    float: left;
     margin: 2.5%;
-    box-shadow:-27px -27px  #B6110F;
+    box-shadow: -27px -27px #B6110F;
     border-radius: 15px;
 }
-.tituloTeinamentoServico{
+
+.tituloTeinamentoServico {
     text-align: center;
     color: #000;
     font-family: Raleway;
@@ -749,7 +772,8 @@ footer{
     line-height: normal;
     padding: 2.2%;
 }
-.txtTeinamentoServicos{
+
+.txtTeinamentoServicos {
     color: #000;
     font-family: Raleway;
     font-size: 20px;
