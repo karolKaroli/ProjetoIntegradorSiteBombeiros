@@ -285,12 +285,25 @@ footer{
     float: right;
     
 } */
-.quemsomos{
+.teste{
+    background-color: #edecec;
+    /* display: flex; */
+    /* justify-content: center;
+    flex-direction: column;
+    align-items: center;*/
+}
+.container-geral {
+    width: 100%;
     background-color: #edecec;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+.botaoright {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .titulo-e-texto {
@@ -304,13 +317,16 @@ footer{
     justify-content: center;
     align-items: center;
     margin: 37px;
+    border: 30px;
+    /* padding: 30px; */
 }
 
 .svg {
+    width: 100vw;
     display: flex;
     position: relative;
     z-index: 0;
-    gap: 60px;
+    gap: 70px;
 }
 
 .tituloQuemSomos {
@@ -332,7 +348,7 @@ footer{
 }
 
 .tituloHome{
-    font-size: 26px;
+    font-size: 23px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -342,8 +358,8 @@ footer{
 }
 
 .txtHome{
-    padding: 5%;
-    font-size: 26px;
+    /* padding: 5%; */
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -362,32 +378,55 @@ footer{
 
 .servicosHome{
     background-color:#FFF;
+    display: flex;
+    flex-direction: column;
     width: 30%;
+    height: 295px;
+    /* height: 400px; */
     margin: 2%;
-    padding: 5%;
+    padding: 2%;
     border-radius: 11px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+.servicosHome img {
+    width: 80px;
+    height: 80px;
 }
 
 /*Divulgue nossa causa*/
 .divulgueCausa{
     padding: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.divulgueCausa button {
+    float: right;
 }
 
 #imgDivulgue{
     width: 50%;
-    float:left; 
+    /* float:left;  */
     margin: 2.5%;
     box-shadow:-20px -20px  #B6110F;
     border-radius: 15px;
 }
 
 /*Quem somos*/
-#imgQeumSomos{
-   width: 40%;
-   float:right; 
-   margin: 2.5%;
-   box-shadow:-20px -20px  #B6110F;
+.quemsomos {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+}
+
+#imgQuemSomos{
+    width: 384px;
+    height: 518px;
+    margin: 2.5%;
+    box-shadow:-27px -27px  #B6110F;
+    border-radius: 15px;
+    object-fit: cover;
+    /* width: 40%; */
+   /* float:right;  */
 }
 
 /*página sobre nos*/
