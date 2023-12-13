@@ -245,7 +245,10 @@ footer{
 }
 
 /*Página de Home*/
-
+.imgPrincipal{
+    display: inline;
+    float: right;
+}
 #headerInicio{
     float: right;
 }
